@@ -1,7 +1,8 @@
+//import Reducer from './countExample/Reducer';
+import State from './countExample/State';
+
 function App() {
-	return (
-		<section className="text-3xl underline font-bold">Hello world</section>
-	);
+	return <section>{<State />}</section>;
 }
 
 export default App;
